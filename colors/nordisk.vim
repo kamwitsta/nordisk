@@ -4,7 +4,7 @@
 "				Arctic Ice Studio’s Nord palette					"
 "				https://github.com/arcticicestudio/nord				"
 " author		kamil.stachowski@gmail.com							"
-" version		0.1 (2016.21.10)									"
+" version		0.1 (2016.22.10)									"
 " license		GPLv3+												"
 " ----------------------------------------------------------------- "
 
@@ -25,13 +25,11 @@ endif
 
 function! s:hi(group, fg, bg, gui)
 	let l:res = "hi " . a:group
-	if a:fg[0] != ""
-		let l:res = l:res . " guifg=" . a:fg[0]
-		" let l:res = l:res . " ctermfg=" . a:fg[1]
+	if a:fg != ""
+		let l:res = l:res . " guifg=" . a:fg
 	endif
-	if a:bg[0] != ""
-		let l:res = l:res . " guibg=" . a:bg[0]
-		" let l:res = l:res . " ctermbg=" . a:bg[1]
+	if a:bg != ""
+		let l:res = l:res . " guibg=" . a:bg
 	endif
 	if a:gui != ""
 		let l:res = l:res . " gui=" . a:gui
@@ -43,25 +41,25 @@ endfunction
 " --------------------------------------------------------------------------------------------- }}} -
 " - palette ----------------------------------------------------------------------------------- {{{ -
 
-let s:col00 = [	"#252a33", 236	]
-let s:col01 = [	"#38404d", 238	]
-let s:col02 = [	"#4a5466", 240	]
-let s:col03 = [	"#5e6b81", 242	]
-let s:col04 = [	"#6f7e98", 244	]
+let s:col00 = "#252a33"
+let s:col01 = "#38404d"
+let s:col02 = "#4a5466"
+let s:col03 = "#5e6b81"
+let s:col04 = "#6f7e98"
 
-let s:col05 = [	"#d7e3f8", 254	]
-let s:col06 = [	"#ffffff", 231	]
+let s:col05 = "#d7e3f8"
+let s:col06 = "#ffffff"
 
-let s:col07 = [ "#8fbcbb", 73	]	" a3be8c
-let s:col08 = [	"#88c0d0", 74	]	" 809f9c
-let s:col09 = [	"#81a1c1", 72	]	" 5e81ac
-let s:col10 = [	"#5e81ac", 63	]	" 8987ac
-let s:col11 = [	"#a3be8c", 114	]	" b48ead
-let s:col12 = [	"#b48ead", 135	]
+let s:col07 = "#8fbcbb"
+let s:col08 = "#88c0d0"
+let s:col09 = "#81a1c1"
+let s:col10 = "#5e81ac"
+let s:col11 = "#a3be8c"
+let s:col12 = "#b48ead"
 
-let s:col13 = [	"#ebcb8b", 185	]
-let s:col14 = [	"#d08770", 173	]
-let s:col15 = [	"#bf616a", 131	]
+let s:col13 = "#ebcb8b"
+let s:col14 = "#d08770"
+let s:col15 = "#bf616a"
 
 " --------------------------------------------------------------------------------------------- }}} -
 " - originals --------------------------------------------------------------------------------- {{{ -
@@ -88,7 +86,7 @@ call s:hi ("DiffDelete",	s:col15,	s:col00,	"none")
 call s:hi ("Error",			s:col00,	s:col15,	"none")
 call s:hi ("ModeMsg",		s:col06,	s:col00,	"bold")
 call s:hi ("Pmenu",			s:col05,	s:col01,	"none")
-call s:hi ("Search",		s:col14,	["bg","bg"],"none")
+call s:hi ("Search",		s:col14,	"bg",		"none")
 call s:hi ("StatusLine",	s:col06,	s:col10,	"bold")
 call s:hi ("StatusLineNC",	s:col00,	s:col05,	"none")
 call s:hi ("Todo",			s:col14,	s:col00,	"none")
