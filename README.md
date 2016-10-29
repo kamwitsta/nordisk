@@ -11,6 +11,6 @@ Compared to the original, the first seven colours have been slightly modified; t
 
 ### Screenshots
 
-<img src="img/vim-1.png" alt="Vim, lightline" width="200px" />
-<img src="img/vim-2.png" alt="Vim, lightline" width="200px" />
+<img src="img/vim-1.png" alt="Vim, lightline" width="300px" />
+<img src="img/vim-2.png" alt="Vim, lightline" width="300px" />
 
