@@ -1,0 +1,20 @@
+GIMP Palette
+Name: nordisk.gpl
+Columns: 1
+#
+37	42	51	blackish 1
+56	64	77	blackish 2
+74	84	102	blackish 3
+94	107	129	blackish 4
+111	126	152	blackish 5
+215	227	248	whitish 1
+255	255	255	whitish 2
+143	188	187	light blue 1
+136	192	208	light blue 2
+129	161	193	light blue 3
+94	129	172	light blue 4
+163	190	140	green
+180	142	173	purple
+235	203	139	yellow
+208	135	112	orange
+191	97	106	red

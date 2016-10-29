@@ -1,6 +1,7 @@
-### nordisk
+nordisk
+=======
 
-A dark, arctically bluish colour scheme for Vim and Lightline modelled on Arctic Ice Studio’s Nord palette (https://github.com/arcticicestudio/nord).
+A dark, arctically bluish colour scheme for Vim and Lightline closely modelled on Arctic Ice Studio’s Nord palette (https://github.com/arcticicestudio/nord).
 
 fairly low contrast | unobtrusive | calm
 
