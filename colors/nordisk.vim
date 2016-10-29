@@ -1,10 +1,10 @@
 " ----------------------------------------------------------------- "
 " name			nordisk												"
-" description	A colour scheme modelled on							"
+" description	A colour scheme closely modelled on					"
 "				Arctic Ice Studio’s Nord palette					"
 "				https://github.com/arcticicestudio/nord				"
 " author		kamil.stachowski@gmail.com							"
-" version		0.1 (2016.22.10)									"
+" version		0.2 (2016.10.29)									"
 " license		GPLv3+												"
 " ----------------------------------------------------------------- "
 
@@ -41,25 +41,25 @@ endfunction
 " --------------------------------------------------------------------------------------------- }}} -
 " - palette ----------------------------------------------------------------------------------- {{{ -
 
-let s:col00 = "#252a33"
-let s:col01 = "#38404d"
-let s:col02 = "#4a5466"
-let s:col03 = "#5e6b81"
-let s:col04 = "#6f7e98"
+let s:col00 = "#252a33"		" blackish 1
+let s:col01 = "#38404d"		" blackish 2
+let s:col02 = "#4a5466"		" blackish 3
+let s:col03 = "#5e6b81"		" blackish 4
+let s:col04 = "#6f7e98"		" blackish 5
 
-let s:col05 = "#d7e3f8"
-let s:col06 = "#ffffff"
+let s:col05 = "#d7e3f8"		" whitish 1
+let s:col06 = "#ffffff"		" whitish 2
 
-let s:col07 = "#8fbcbb"
-let s:col08 = "#88c0d0"
-let s:col09 = "#81a1c1"
-let s:col10 = "#5e81ac"
-let s:col11 = "#a3be8c"
-let s:col12 = "#b48ead"
+let s:col07 = "#8fbcbb"		" light blue 1
+let s:col08 = "#88c0d0"		" light blue 2
+let s:col09 = "#81a1c1"		" light blue 3
+let s:col10 = "#5e81ac"		" light blue 4
+let s:col11 = "#a3be8c"		" green
+let s:col12 = "#b48ead"		" purple
 
-let s:col13 = "#ebcb8b"
-let s:col14 = "#d08770"
-let s:col15 = "#bf616a"
+let s:col13 = "#ebcb8b"		" yellow
+let s:col14 = "#d08770"		" orange
+let s:col15 = "#bf616a"		" red
 
 " --------------------------------------------------------------------------------------------- }}} -
 " - originals --------------------------------------------------------------------------------- {{{ -
@@ -70,9 +70,9 @@ call s:hi ("Visual",		"",			s:col03,	"none")
 call s:hi ("Comment",		s:col04,	s:col00,	"none")
 
 call s:hi ("Normal",		s:col05,	s:col00,	"none")
-call s:hi ("Operator",		s:col06,	s:col00,	"none")
+call s:hi ("Special",		s:col06,	s:col00,	"none")
 
-call s:hi ("Special",		s:col07,	s:col00,	"none")
+call s:hi ("Operator",		s:col07,	s:col00,	"none")
 call s:hi ("PreProc",		s:col08,	s:col00,	"none")
 call s:hi ("Identifier",	s:col09,	s:col00,	"none")
 call s:hi ("Constant",		s:col10,	s:col00,	"none")

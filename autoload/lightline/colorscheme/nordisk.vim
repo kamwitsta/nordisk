@@ -1,10 +1,10 @@
 " ----------------------------------------------------------------- "
 " name			nordisk												"
-" description	A colour scheme modelled on							"
+" description	A colour scheme closely modelled on					"
 "				Arctic Ice Studio’s Nord palette					"
 "				https://github.com/arcticicestudio/nord				"
 " author		kamil.stachowski@gmail.com							"
-" version		0.1 (2016.22.10)									"
+" version		0.1 (2016.10.22)									"
 " license		GPLv3+												"
 " ----------------------------------------------------------------- "
 
@@ -35,19 +35,19 @@ let s:col15 = [	"#bf616a", 0 ]
 
 let s:p	= {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 
-let s:p.inactive.left	= [[s:col05, s:col02]]
-let s:p.inactive.middle	= [[s:col05, s:col03]]
-let s:p.inactive.right	= [[s:col05, s:col02]]
-let s:p.insert.left		= [[s:col00, s:col11]]
+let s:p.inactive.left	= [[s:col00, s:col02]]
+let s:p.inactive.middle	= [[s:col00, s:col03]]
+let s:p.inactive.right	= [[s:col00, s:col02]]
+let s:p.insert.left		= [[s:col06, s:col11]]
 let s:p.insert.middle	= [[s:col00, s:col05]]
 let s:p.insert.right	= [[s:col00, s:col11]]
-let s:p.normal.left		= [[s:col00, s:col10]]
+let s:p.normal.left		= [[s:col06, s:col10]]
 let s:p.normal.middle	= [[s:col00, s:col09]]
 let s:p.normal.right	= [[s:col00, s:col10]]
-let s:p.replace.left	= [[s:col00, s:col14]]
+let s:p.replace.left	= [[s:col06, s:col14]]
 let s:p.replace.middle	= [[s:col00, s:col05]]
 let s:p.replace.right	= [[s:col00, s:col14]]
-let s:p.visual.left		= [[s:col00, s:col12]]
+let s:p.visual.left		= [[s:col06, s:col12]]
 let s:p.visual.middle	= [[s:col00, s:col05]]
 let s:p.visual.right	= [[s:col00, s:col12]]
 let s:p.normal.error	= [[s:col00, s:col15]]
