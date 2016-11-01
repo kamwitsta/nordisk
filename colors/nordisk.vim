@@ -4,7 +4,7 @@
 "				Arctic Ice Studio’s Nord palette					"
 "				https://github.com/arcticicestudio/nord				"
 " author		kamil.stachowski@gmail.com							"
-" version		0.2 (2016.10.29)									"
+" version		0.3 (\#)								"
 " license		GPLv3+												"
 " ----------------------------------------------------------------- "
 
@@ -56,7 +56,6 @@ let s:col09 = "#81a1c1"		" light blue 3
 let s:col10 = "#5e81ac"		" light blue 4
 let s:col11 = "#a3be8c"		" green
 let s:col12 = "#b48ead"		" purple
-
 let s:col13 = "#ebcb8b"		" yellow
 let s:col14 = "#d08770"		" orange
 let s:col15 = "#bf616a"		" red
@@ -81,7 +80,7 @@ call s:hi ("Type",			s:col12,	s:col00,	"none")
 
 call s:hi ("Cursor",		"",			"",			"inverse")
 call s:hi ("DiffAdd",		s:col08,	s:col00,	"none")
-call s:hi ("DiffChange",	s:col14,	s:col00,	"none")
+call s:hi ("DiffChange",	s:col13,	s:col00,	"none")
 call s:hi ("DiffDelete",	s:col15,	s:col00,	"none")
 call s:hi ("Error",			s:col00,	s:col15,	"none")
 call s:hi ("ModeMsg",		s:col06,	s:col00,	"bold")
@@ -152,5 +151,58 @@ hi! link Typedef		Type
 hi! link VertSplit		StatusLineNC
 hi! link VisualNOS		Visual
 hi! link WildMenu		StatusLineNC
+
+" --------------------------------------------------------------------------------------------- }}} -
+" - languages --------------------------------------------------------------------------------- {{{ -
+
+" c++
+hi! link cppAccess		Type
+hi! link cppStatement	Special
+
+" html
+hi! link htmlArg		Statement
+hi! link htmlTag		Operator
+hi! link htmlTagName	Type
+hi! link htmlTitle		Type
+
+" java
+hi! link javaTypeDef	Special
+
+" markdown
+hi! link markdownH1		Type
+
+" nerdtree
+hi! link NERDTreeCWD	WarningMsg
+hi! link NERDTreeExecFile	PreProc
+hi! link NERDTreeLinkDir	Type
+hi! link NERDTreeLinkFile	Special
+hi! link NERDTreeLinkTarget	Normal
+
+" netrw
+hi! link netrwSymLink	Special
+
+" pascal
+hi! link pascalStatement	Type
+
+" python
+hi! link pythonStatement	Type
+
+" ruby
+hi! link rubyConstant	Special
+hi! link rubyDefine		Type
+
+" sh
+hi! link shDerefVar		Special
+hi! link shFunction		Type
+hi! link shLoop			Statement
+hi! link shStatement	Special
+
+" vim
+hi! link vimCommand		Statement
+hi! link vimEnvVar		Special
+hi! link vimFuncKey		Type
+hi! link vimOption		Special
+hi! link vimSyntax		Special
+hi! link vimSynType		Special
 
 " --------------------------------------------------------------------------------------------- }}} -
