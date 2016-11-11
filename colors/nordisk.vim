@@ -46,20 +46,17 @@ let s:col01 = "#38404d"		" blackish 2
 let s:col02 = "#4a5466"		" blackish 3
 let s:col03 = "#5e6b81"		" blackish 4
 let s:col04 = "#6f7e98"		" blackish 5
-
-let s:col05 = "#D7DBE2"		" whitish 1
+let s:col05 = "#d7dbe2"		" whitish 1
 let s:col06 = "#ffffff"		" whitish 2
-
 let s:col07 = "#8fbcbb"		" light blue 1
-let s:col08 = "#88c0d0"		" light blue 2
-let s:col09 = "#81a1c1"		" light blue 3
+let s:col08 = "#81a1c1"		" light blue 3
+let s:col09 = "#88c0d0"		" light blue 2
 let s:col10 = "#5e81ac"		" light blue 4
-
 let s:col11 = "#a3be8c"		" green
 let s:col12 = "#b48ead"		" purple
-let s:col13 = "#ECCF95"		" yellow
-let s:col14 = "#D18A75"		" orange
-let s:col15 = "#BF6971"		" red
+let s:col13 = "#eccf95"		" yellow
+let s:col14 = "#d18a75"		" orange
+let s:col15 = "#bf6971"		" red
 
 " --------------------------------------------------------------------------------------------- }}} -
 " - originals --------------------------------------------------------------------------------- {{{ -
@@ -73,14 +70,14 @@ call s:hi ("Normal",		s:col05,	s:col00,	"none")
 call s:hi ("Special",		s:col06,	s:col00,	"none")
 
 call s:hi ("Operator",		s:col07,	s:col00,	"none")
-call s:hi ("PreProc",		s:col08,	s:col00,	"none")
-call s:hi ("Identifier",	s:col09,	s:col00,	"none")
+call s:hi ("Identifier",	s:col08,	s:col00,	"none")
+call s:hi ("PreProc",		s:col09,	s:col00,	"none")
 call s:hi ("Constant",		s:col10,	s:col00,	"none")
 call s:hi ("Statement",		s:col11,	s:col00,	"none")
 call s:hi ("Type",			s:col12,	s:col00,	"none")
 
 call s:hi ("Cursor",		"",			"",			"inverse")
-call s:hi ("DiffAdd",		s:col08,	s:col00,	"none")
+call s:hi ("DiffAdd",		s:col11,	s:col00,	"none")
 call s:hi ("DiffChange",	s:col13,	s:col00,	"none")
 call s:hi ("DiffDelete",	s:col15,	s:col00,	"none")
 call s:hi ("Error",			s:col00,	s:col15,	"none")
