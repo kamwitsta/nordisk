@@ -4,7 +4,7 @@
 "				Arctic Ice Studio’s Nord palette					"
 "				https://github.com/arcticicestudio/nord				"
 " author		kamil.stachowski@gmail.com							"
-" version		0.3 (\#)								"
+" version		0.4 (2016.11.11)									"
 " license		GPLv3+												"
 " ----------------------------------------------------------------- "
 
