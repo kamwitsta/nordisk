@@ -4,15 +4,14 @@
 	ui = auto
 [color "branch"]
 	current = red bold
-	local = yellow bold
-	remote = green bold
+	local = magenta bold
+	remote = yellow
 [color "diff"]
 	meta = cyan
-	frag = blue bold
+	frag = blue
 	old = red
 	new = green
 [color "status"]
 	added = green
-	changed = magenta bold
-	untracked = yellow
-
+	changed = yellow
+	untracked = magenta

@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Base16 - Gnome Terminal color scheme install script
-# Generated via http://terminal.sexy/
+# Generated through terminal.sexy
 
-[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="nordisk"
-[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="nordisk"
+[[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="nordisk-0.4"
+[[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="nordisk-0.4"
 [[ -z "$DCONF" ]] && DCONF=dconf
 [[ -z "$UUIDGEN" ]] && UUIDGEN=uuidgen
 
@@ -59,10 +59,10 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "['#252a33', '#bf616a', '#a3be8c', '#6f7e98', '#81a1c1', '#8fbcbb', '#5e81ac', '#4a5466', '#38404d', '#d08770', '#88c0d0', '#d7e3f8', '#b48ead', '#ebcb8b', '#ffffff', '#5e6b81']"
+        dset palette "['#252a33', '#bf6971', '#a3be8c', '#eccf95', '#5e81ac', '#6f7e98', '#81a1c1', '#4a5466', '#38404d', '#d18a75', '#88c0d0', '#8fbcbb', '#b48ead', '#d7dbe2', '#ffffff', '#5e6b81']"
         dset background-color "'#252a33'"
-        dset foreground-color "'#d7e3f8'"
-        dset bold-color "'#d7e3f8'"
+        dset foreground-color "'#d7dbe2'"
+        dset bold-color "'#d7dbe2'"
         dset bold-color-same-as-fg "true"
         dset use-theme-colors "false"
         dset use-theme-background "false"
@@ -109,10 +109,10 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#252a33:#bf616a:#a3be8c:#6f7e98:#81a1c1:#8fbcbb:#5e81ac:#4a5466:#38404d:#d08770:#88c0d0:#d7e3f8:#b48ead:#ebcb8b:#ffffff:#5e6b81"
+gset string palette "#252a33:#bf6971:#a3be8c:#eccf95:#5e81ac:#6f7e98:#81a1c1:#4a5466:#38404d:#d18a75:#88c0d0:#8fbcbb:#b48ead:#d7dbe2:#ffffff:#5e6b81"
 gset string background_color "#252a33"
-gset string foreground_color "#d7e3f8"
-gset string bold_color "#d7e3f8"
+gset string foreground_color "#d7dbe2"
+gset string bold_color "#d7dbe2"
 gset bool   bold_color_same_as_fg "true"
 gset bool   use_theme_colors "false"
 gset bool   use_theme_background "false"
