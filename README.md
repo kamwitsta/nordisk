@@ -9,6 +9,7 @@ fairly low contrast | unobtrusive | calm
 
 The repo contains the palette in several formats, plus colour schemes for Vim, vim-airline, lightline.vim, Git, Gnome Terminal, and .Xdefaults.
 
+
 ### Screenshots
 
 <p align="center">
