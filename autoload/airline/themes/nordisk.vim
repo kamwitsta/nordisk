@@ -36,7 +36,7 @@ let s:col15 = "#bf6971"		" red
 " --------------------------------------------------------------------------------------------- }}} -
 " - scheme ------------------------------------------------------------------------------------ {{{ -
 
-let g:airline#themes#nordisk#palette.normal = airline#themes#generate_color_map ([s:col06,s:col10], [s:col00,s:col09], [s:col00,s:col10])
+let g:airline#themes#nordisk#palette.normal = airline#themes#generate_color_map ([s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10])
 let g:airline#themes#nordisk#palette.normal_modified = {
       \ 'airline_c': [ '#ffffff' , '#5f005f' , 255     , 53      , ''     ] ,
       \ }
