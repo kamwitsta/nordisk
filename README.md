@@ -5,7 +5,7 @@ A dark, arctically bluish colour scheme for Vim and Lightline closely modelled o
 
 fairly low contrast | unobtrusive | calm
 
-<p align="center"><img src="https://raw.githubusercontent.com/kamwitsta/nordisk/master/img/nordisk.png" height="200px" width="700px" /></p>
+<p align="center"><img src="https://raw.githubusercontent.com/kamwitsta/nordisk/master/img/nordisk.png" width="666px" /></p>
 
 The repo contains the palette in several formats, plus colour schemes for Vim, vim-airline, lightline.vim, Git, Gnome Terminal, and .Xdefaults.
 
