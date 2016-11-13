@@ -23,5 +23,5 @@ nordisk
 - several minor adjustments to the palette
 - added vim-airline
 
-## 0.5
+## 0.4.1 (2016.11.13)
 - fixed vim-airline

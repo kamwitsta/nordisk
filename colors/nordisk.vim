@@ -204,3 +204,5 @@ hi! link vimSyntax		Special
 hi! link vimSynType		Special
 
 " --------------------------------------------------------------------------------------------- >>> -
+
+" vim: foldmarker=<<<,>>>
