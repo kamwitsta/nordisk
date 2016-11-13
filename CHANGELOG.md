@@ -21,4 +21,7 @@ nordisk
 ## 0.4 (2016.11.11)
 - made into a separate project
 - several minor adjustments to the palette
-- added Vim airline
+- added vim-airline
+
+## 0.5
+- fixed vim-airline

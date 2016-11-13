@@ -3,9 +3,11 @@ nordisk
 
 A dark, arctically bluish colour scheme for Vim and Lightline closely modelled on [Arctic Ice Studio’s Nord palette](https://github.com/arcticicestudio/nord).
 
+<p align="center">
 fairly low contrast | unobtrusive | calm
-
-<p align="center"><img src="https://raw.githubusercontent.com/kamwitsta/nordisk/master/img/nordisk.jpg" height="130px" /></p>
+<br />
+<img src="https://raw.githubusercontent.com/kamwitsta/nordisk/master/img/nordisk.jpg" height="130px" />
+</p>
 
 The repo contains the palette in several formats, plus colour schemes for Vim, vim-airline, lightline.vim, Git, Gnome Terminal, and .Xdefaults.
 
