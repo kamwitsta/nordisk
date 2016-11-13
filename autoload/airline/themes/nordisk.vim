@@ -37,37 +37,46 @@ let s:col15 = "#bf6971"		" red
 " - scheme ------------------------------------------------------------------------------------ <<< -
 
 let g:airline#themes#nordisk#palette.inactive = airline#themes#generate_color_map
-	\ ( [s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10] )
+	\ ( [s:col00, s:col02, 0, 0],
+	\	[s:col00, s:col03, 0, 0],
+	\	[s:col00, s:col03, 0, 0] )
 let g:airline#themes#nordisk#palette.inactive_modified =
-	\ { 'airline_c': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_c': [ s:col00, s:col06, 0, 0, ''], }
 
 let g:airline#themes#nordisk#palette.insert = airline#themes#generate_color_map
-	\ ( [s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10] )
+	\ ( [s:col06, s:col11, 0, 0],
+	\	[s:col06, s:col05, 0, 0],
+	\	[s:col00, s:col05, 0, 0] )
 let g:airline#themes#nordisk#palette.insert_modified =
-	\ { 'airline_c': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_c': [ s:col00, s:col06, 0, 0, ''], }
 let g:airline#themes#nordisk#palette.insert_paste =
-	\ { 'airline_a': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_a': [ s:col00, s:col07, 0, 0, ''], }
 
 let g:airline#themes#nordisk#palette.normal = airline#themes#generate_color_map
-	\ ( [s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10] )
+	\ ( [s:col06, s:col10, 0, 0],
+	\	[s:col06, s:col08, 0, 0],
+	\	[s:col00, s:col08, 0, 0] )
 let g:airline#themes#nordisk#palette.normal_modified =
-	\ { 'airline_c': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_c': [ s:col00, s:col06, 0, 0, ''], }
 
 let g:airline#themes#nordisk#palette.replace = airline#themes#generate_color_map
-	\ ( [s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10] )
+	\ ( [s:col06, s:col14, 0, 0],
+	\	[s:col06, s:col05, 0, 0],
+	\	[s:col00, s:col05, 0, 0] )
 let g:airline#themes#nordisk#palette.replace_modified =
-	\ { 'airline_c': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_c': [ s:col00, s:col06, 0, 0, ''], }
 let g:airline#themes#nordisk#palette.replace_paste =
-	\ { 'airline_a': [ s:col00 , s:col00 ,0,0,''], }
+	\ { 'airline_a': [ s:col00, s:col07, 0, 0, ''], }
 
-let g:airline#themes#nordisk#palette.visual = airline#themes#generate_color_map
-	\ ( [s:col06,s:col10], [s:col00,s:col08], [s:col00,s:col10] )
-let g:airline#themes#nordisk#palette.visual_modified =
-	\ { 'airline_c': [ s:col00 , s:col00 ,0,0,''], }
+let g:airline#themes#nordisk#palette.normal = airline#themes#generate_color_map
+	\ ( [s:col06, s:col10, 0, 0],
+	\	[s:col06, s:col08, 0, 0],
+	\	[s:col00, s:col08, 0, 0] )
+let g:airline#themes#nordisk#palette.normal_modified =
+	\ { 'airline_c': [ s:col00, s:col06, 0, 0, ''], }
 
-
-let g:airline#themes#dark#palette.accents =
-	\ { 'red': [ '#ff0000' , '' , 160 , '' ]}
+let g:airline#themes#nordisk#palette.accents =
+	\ { 'red': [ s:col14, '', 0, ''], }
 
 " --------------------------------------------------------------------------------------------- >>> -
 
