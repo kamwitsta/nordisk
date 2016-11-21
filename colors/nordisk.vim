@@ -117,7 +117,7 @@ hi! link IncSearch		Search
 hi! link Include		PreProc
 hi! link Keyword		Statement
 hi! link Label			Statement
-hi! link LineNr			Ignore
+hi! link LineNr			Normal
 hi! link Macro			PreProc
 hi! link MatchParen		Search
 hi! link MoreMsg		ModeMsg
