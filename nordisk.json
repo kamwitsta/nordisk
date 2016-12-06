@@ -28,7 +28,7 @@
         "#5E6B81"
     ],
     "use-badge-color": false,
-    "use-cursor-color": true,
+    "use-cursor-color": false,
     "use-dim-color": false,
     "use-highlight-color": false,
     "use-theme-colors": false
