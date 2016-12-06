@@ -9,7 +9,10 @@ fairly low contrast | unobtrusive | calm
 <img src="https://raw.githubusercontent.com/kamwitsta/nordisk/master/img/nordisk.jpg" height="130px" />
 </p>
 
-The repo contains the palette in several formats, plus colour schemes for Vim, vim-airline, lightline.vim, Git, Gnome Terminal, Terminix, and .Xdefaults.
+The repo contains the palette in several formats, plus colour schemes for
+* Vim, vim-airline, lightline.vim,
+* Gnome Terminal, Terminix (by [John Franey](https://github.com/johnfraney)),
+* Git, and .Xdefaults.
 
 
 ### Screenshots
