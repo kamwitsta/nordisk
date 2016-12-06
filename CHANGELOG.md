@@ -25,3 +25,6 @@ nordisk
 
 ## 0.4.1 (2016.11.13)
 - fixed vim-airline
+
+## 0.5 (2016.12.06)
+- added Terminix by https://github.com/johnfraney
